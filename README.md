@@ -24,4 +24,4 @@
 2. 安装shadowsocks, proxychains，用于下载pytorch
 3. 安装torch：`conda install pytorch torchvision cuda100 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/`
 4. `pip install opencv-python`
-5. 配置jupyter notebook
+5. 配置jupyter notebook，开放端口：`firewall-cmd --zone=public --add-port=8888/tcp --permanent`
