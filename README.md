@@ -4,9 +4,8 @@
 
 ### 系统配置（用root账户配）
 1. ipv4、ipv6网络配置
-2. 检查开启ssh
 3. 安装zsh（重启生效）, oh my zsh
-4. 安装tmux（补gcc, libevent-devel, ncurses-devel），配置
+4. 安装tmux，配置
 5. 安装frp，配置
 
 ### 显卡驱动
