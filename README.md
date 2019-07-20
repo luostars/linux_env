@@ -35,6 +35,7 @@ gcc --version
 7. 把`source /opt/rh/devtoolset-3/enable`写到启动项里
 8. 安装Nvidia/apex
 
-### 其他安装项
-1. shadowsocks-gui: https://github.com/Shadowsocks-Wiki/shadowsocks/blob/master/6-linux-setup-guide-cn.md#Shadowosocks-QT5
-2. chrome及switchproxy插件
+## 每次启动时
+1. sudo sslo
+2. 开个tmux启jupyter notebook
+
