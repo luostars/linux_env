@@ -9,9 +9,8 @@
 5（选）. 安装frp，配置
 
 ### 显卡驱动
-1. 下载对应内核：http://rpm.pbone.net/
-2. `rpm -ivh kernel-headers-3.10.0-xxx.el7.x86_64.rpm`, 
-   `rpm -ivh kernel-devel-3.10.0-xxx.el7.x86_64.rpm`
+1. 安装编译环境
+2. `yum -y install gcc kernel-devel "kernel-devel-uname-r == $(uname -r)" dkms`
 3. 设置etc/modprobe.d/blacklist.conf 
 4. 重新建立initramfs image文件
 5. multi-user
