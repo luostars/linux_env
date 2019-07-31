@@ -33,6 +33,7 @@ gcc --version
 ```
 7. 把`source /opt/rh/devtoolset-3/enable`写到启动项里
 8. 安装Nvidia/apex
+9. `sudo vim /usr/local/anaconda3/lib/python3.7/site-packages/PIL/Image.py`将`MAX_IMAGE_PIXELS`修改为`None`（line 86)
 
 ## 每次启动时
 1. sudo sslo
